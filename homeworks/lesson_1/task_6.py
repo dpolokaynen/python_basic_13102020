@@ -14,4 +14,4 @@ counter = 0
 while goal_length > initial_length:
     initial_length = initial_length * 1.1
     counter = counter + 1
-print (f'Спортсмен достигнет цели через {counter + 1} дней')
+print(f'Спортсмен достигнет цели через {counter + 1} дней')

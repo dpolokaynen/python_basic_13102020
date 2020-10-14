@@ -3,5 +3,5 @@
 '''
 print('Введите число')
 number = int(input())
-number_sum = (number) + (10*number + number) + (100*number + 10*number + number)
+number_sum = number + (10*number + number) + (100*number + 10*number + number)
 print(number_sum)

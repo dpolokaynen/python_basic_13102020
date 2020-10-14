@@ -7,6 +7,6 @@ number = int(input())
 digit_array = []
 while number > 1/10:
     number_digit = number % 10
-    number = number //10
+    number = number // 10
     digit_array.append(number_digit)
 print(max(digit_array))
