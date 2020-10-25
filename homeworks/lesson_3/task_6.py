@@ -16,7 +16,7 @@ def int_func(input_word):
     capital_word = ''.join(result_word)
     return capital_word
     #print(f'{capital_letter}{other_words[1:]}')
-print(int_func('hello'))
+print('Исходное слово - hello. После преобразования - ',int_func('hello'))
 def capital_string(input_string):
     words = input_string.split(' ')
     counter = 0
@@ -27,4 +27,6 @@ def capital_string(input_string):
     result_string = ''.join(result_string)
     return result_string
 
-print(capital_string('Hello dear world'))
+
+print('Исходная строка - hello dear world. После преобразования - ',
+      capital_string('Hello dear world'))
